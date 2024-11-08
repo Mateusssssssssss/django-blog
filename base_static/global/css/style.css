@@ -11,3 +11,7 @@ body{
     padding: 0 auto;
     margin-left: 200px;
 }
+
+.pagination{
+    background-color: blue;
+}
