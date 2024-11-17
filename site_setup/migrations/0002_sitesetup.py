@@ -14,8 +14,8 @@ class Migration(migrations.Migration):
             name='SiteSetup',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('titulo', models.CharField(max_length=65)),
-                ('descricao', models.CharField(max_length=255)),
+                ('title', models.CharField(max_length=65)),
+                ('description', models.CharField(max_length=255)),
                 ('show_header', models.BooleanField(default=True)),
                 ('show_search', models.BooleanField(default=True)),
                 ('show_menu', models.BooleanField(default=True)),
