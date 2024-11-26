@@ -234,10 +234,11 @@ html,
 
 .blog-title a{
   text-decoration: none;
+  color: hsl(55, 29%, 41%) ;
 }
 
 .blog-title a:hover{
-  background-color:  rgba(116, 149, 231, 0.2);
+  background-color:  rgba(199, 143, 22, 0.2);
 }
 
 /* Menu */
@@ -249,10 +250,12 @@ html,
 }
 .menu a{
   text-decoration: none;
+  color: hsl(55, 29%, 41%) ;
+ 
 }
 
 .menu a:hover {
-  background-color: rgba(116, 149, 231, 0.2);
+  background-color:  rgba(199, 143, 22, 0.2);
 }
 
 .menu-items {
@@ -292,7 +295,7 @@ html,
 }
 
 .search-input:focus {
-  border: 2px solid hsl(var(--clr-primary-base));
+  border: 2px solid hsl(55, 29%, 41%) ;
 }
 
 .search-btn {
@@ -316,7 +319,7 @@ html,
 
 /* Footer */
 .footer {
-  background: hsl(var(--clr-gray-dk));
+  background-color: hsl(55, 29%, 41%) ;
   color: hsl(var(--clr-white));
 }
 
@@ -404,6 +407,14 @@ html,
   font-size: var(--fs-bg);
 }
 
+.pagination-wrapper a{
+  color: hsl(55, 29%, 41%) ;
+}
+
+/* .pagination-links{
+  color: hsl(55, 29%, 41%) ;
+} */
+
 .step-links {
   display: flex;
   flex-flow: row nowrap;
@@ -426,7 +437,7 @@ html,
 .card {
   border: 1px solid hsl(var(--clr-gray-ltst));
   border-radius: var(--br-base);
-  box-shadow: 0 5px 5px hsl(var(--clr-black) / 0.1);
+  box-shadow: 0 5px 5px hsl(55, 29%, 41%);
   transition: scale 300ms ease-in-out, box-shadow 300ms ease-in-out;
 }
 
@@ -475,6 +486,10 @@ html,
   align-items: center;
   justify-content: end;
   gap: var(--spacing-smlst);
+}
+
+.card-actions a{
+  color: hsl(55, 29%, 41%) ;
 }
 
 .card-action-link {
