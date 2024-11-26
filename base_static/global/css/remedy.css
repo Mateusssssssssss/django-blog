@@ -119,7 +119,6 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
   max-width: 100%;
 }
 audio:not([controls]) {
