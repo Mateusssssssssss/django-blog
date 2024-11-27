@@ -27,24 +27,14 @@
             </div>
           </form>
         </div>
-  
         <nav class="menu">
           <ul class="menu-items">
+            {{site_setup.menulink.text}}
+            {% for link in  site_setup.menulink_set.all %}
             <li class="menu-item">
-              <a class="menu-link" href="/post/">Post</a>
+              <a class="menu-link" href="{{link.url_or_path}}">{{link.text}}</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="/page/">Paginas</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#">Sobre</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#">Contato</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#">Suporte</a>
-            </li>
+            {% endfor %}
           </ul>
         </nav>
         
